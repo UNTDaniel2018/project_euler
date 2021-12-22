@@ -1,2 +1,5 @@
 # project_euler
-Personal solutions to problems located on: https://projecteuler.net/archives
+
+Personal solutions to project euler archives using python.
+
+URL to Project Euler archives: https://projecteuler.net/archives
