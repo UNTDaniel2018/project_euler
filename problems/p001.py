@@ -1,5 +1,5 @@
 # Function: Sums multiples of 3 or 5 from 0 to given limit.
-# RETURNS: None
+# RETURNS: sum of numbers (integer)
 def calculate_sum(num_limit):
 
     # set/reset value to 0
@@ -13,13 +13,14 @@ def calculate_sum(num_limit):
             multiple_sum = multiple_sum + value
                     
     # prints results from function
-    print("Sum of all multiples under (%d): %d" % (num_limit, multiple_sum))
+    # print("Sum of all multiples under (%d): %d" % (num_limit, multiple_sum))
+    return (multiple_sum)
 
 
 if __name__ == "__main__":
     
     # problem value
-    calculate_sum(1000)
+    print(calculate_sum(1000))
     
     # given value, sum = 23
     calculate_sum(10)
